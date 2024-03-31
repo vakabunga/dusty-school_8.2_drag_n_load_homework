@@ -1,0 +1,19 @@
+.ProgressBar {
+  border: 1px solid black;
+  width: 300px;
+  height: 30px;
+  margin: 50px auto;
+  overflow-x: hidden;
+}
+
+.ProgressBar-CurrentProgress {
+  height: 30px;
+  background-color: #add8e6;
+  width: 0px;
+  max-width: 100%;
+}
+
+.ProgressBar-CurrentProgressInPercent {
+  line-height: 30px;
+  margin: 0;
+}
